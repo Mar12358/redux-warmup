@@ -9,9 +9,9 @@ const Navbar = () => {
         <h3>redux toolkit</h3>
         <div className='nav-container'>
           <CartIcon />
-          <dov className='amount-container'>
+          <div className='amount-container'>
             <p className='total-amount'>{amount}</p>
-          </dov>
+          </div>
         </div>
       </div>
     </nav>
